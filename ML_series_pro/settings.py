@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'ML_series_pro.wsgi.application'
 # }
 
 # Database used in Heroku 
-# import dj_database_url
+import dj_database_url
 
 DATABASES = {
     'default': dj_database_url.config(default='postgres://localhost')
