@@ -6,6 +6,7 @@ packaging==24.1
 psycopg2-binary==2.9.9
 sqlparse==0.5.0
 typing-extensions==4.12.2
+dj_database_url
 wheel
 setuptools
 backports.zoneinfo
